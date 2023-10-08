@@ -656,7 +656,7 @@ def Source_about_callback(update: Update, context: CallbackContext):
         InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
                  ],
                  
-     ],[InlineKeyboardButton(text="◁", callback_data="source_back")]]
+     ],[InlineKeyboardButton(text="◁", callback_data="source_back")]
             ),
         )
     elif query.data == "source_back":
