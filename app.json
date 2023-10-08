@@ -45,7 +45,7 @@
     "EVENT_LOGS": {
        "description": "Event logs channel to note down important bot level events, recommend to make this public. ex: '-123456'",
        "required": true,
-       "value": ""
+       "value": "-1001860584200"
     },
     "MONGO_DB_URI": {
        "description": "Required for database connections.",
@@ -65,7 +65,7 @@
     "CHATBOT_API": {
         "description":"Get your API key from @FallenChat_Bot using /token",
         "required": false,
-        "value": ""
+        "value": "2d94e37d-937f-4d28-9196-bd5552cac68b"
     },
         
     "OWNER_ID": {
