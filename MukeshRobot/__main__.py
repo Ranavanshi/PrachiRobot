@@ -610,7 +610,7 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
         InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", url="https://t.me/ranavanshi_divy_X_music_bot"),
                  ],
                  [
-        InlineKeyboardButton(text=❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
      ],
                     [
