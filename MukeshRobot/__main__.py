@@ -77,7 +77,7 @@ PM_START_TEX = """
 PM_START_TEXT = """ 
 *ʜᴇʏ* {} , 🥀
 *๏ ɪ'ᴍ {} ʜᴇʀᴇ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘs!
- ❁ ᴍʏ ᴍᴀsᴛᴇʀ ❁ | [ 𝕯𝖎𝖛𝖞𝖆𝖓𝖘𝖍𝖚 ](https://t.me/Ranavanshi_divy) |🥀
+ **ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ || [𝕯𝖎𝖛𝖞𝖓𝖆𝖍𝖘𝖚](https://t.me/ranavanshi_divy)||**
 ʜɪᴛ ʜᴇʟᴘ ᴛᴏ ғɪɴᴅ ᴏᴜᴛ ᴍᴏʀᴇ ᴀʙᴏᴜᴛ ʜᴏᴡ ᴛᴏ ᴜsᴇ ᴍᴇ ɪɴ ᴍʏ ғᴜʟʟ ᴘᴏᴛᴇɴᴛɪᴀʟ!*
 ➻ *ᴛʜᴇ ᴍᴏsᴛ ᴩᴏᴡᴇʀғᴜʟ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴩ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ  ➕ ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴏᴛ ᴀɴᴅ ɪ ʜᴀᴠᴇ sᴏᴍᴇ ᴀᴡᴇsᴏᴍᴇ ᴀɴᴅ ᴜsᴇғᴜʟ ғᴇᴀᴛᴜʀᴇs.*
 ─────────────────
@@ -88,15 +88,15 @@ PM_START_TEXT = """
 
 buttons = [
     [
-        InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
+        InlineKeyboardButton(text="❀ ʜᴏᴍᴇ ❀", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
     ],
      [  
-    InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me//ranavanshi_divy_X_music_bot"),
+    InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", url="https://t.me//ranavanshi_divy_X_music_bot"),
     ],    
    
-    [InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
+    [InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
      ],
     [
         InlineKeyboardButton(
@@ -237,7 +237,8 @@ def start(update: Update, context: CallbackContext):
     else:
         update.effective_message.reply_photo(
             START_IMG,
-            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ  !\n ❁ ᴍʏ ᴍᴀsᴛᴇʀ ❁ [ 𝕯𝖎𝖛𝖞𝖆𝖓𝖘𝖍𝖚 ](https://t.me/Ranavanshi_divy) 🥀\n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
+            caption="ɪ ᴀᴍ ᴀʟɪᴠᴇ ʙᴀʙʏ  !\n **ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ || [𝕯𝖎𝖛𝖞𝖓𝖆𝖍𝖘𝖚](https://t.me/ranavanshi_divy)||**
+                             \n<b>ɪ ᴅɪᴅɴ'ᴛ sʟᴇᴘᴛ sɪɴᴄᴇ​:</b> <code>{}</code>".format(
                 uptime
             ),
             parse_mode=ParseMode.HTML,
@@ -367,7 +368,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
     if query.data == "mukesh_":
         uptime = get_readable_time((time.time() - StartTime))
         query.message.edit_caption(f"*ʜᴇʏ,*🥀\n  *ᴛʜɪs ɪs {dispatcher.bot.first_name}*"
-                                   "\n*❁ ᴍʏ ᴍᴀsᴛᴇʀ ❁|[ 𝕯𝖎𝖛𝖞𝖆𝖓𝖘𝖍𝖚 ](https://t.me/Ranavanshi_divy) |🥀*"
+                                   "\n**ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ || [𝕯𝖎𝖛𝖞𝖓𝖆𝖍𝖘𝖚](https://t.me/ranavanshi_divy)||**",
             "\n*ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ɢʀᴏᴜᴘ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ➕ ᴍᴜsɪᴄ ᴍᴀɴᴀɢᴇᴍᴇɴᴛ ʙᴜɪʟᴛ ᴛᴏ ʜᴇʟᴘ ʏᴏᴜ ᴍᴀɴᴀɢᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴇᴀꜱɪʟʏ ᴀɴᴅ ᴛᴏ ᴘʀᴏᴛᴇᴄᴛ ʏᴏᴜʀ ɢʀᴏᴜᴘ ꜰʀᴏᴍ ꜱᴄᴀᴍᴍᴇʀꜱ ᴀɴᴅ ꜱᴘᴀᴍᴍᴇʀꜱ.*"
             "\n*ᴡʀɪᴛᴛᴇɴ ɪɴ ᴩʏᴛʜᴏɴ ᴡɪᴛʜ sǫʟᴀʟᴄʜᴇᴍʏ ᴀɴᴅ ᴍᴏɴɢᴏᴅʙ ᴀs ᴅᴀᴛᴀʙᴀsᴇ.*"
             "\n\n────────────────────"
@@ -386,15 +387,15 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
+        InlineKeyboardButton(text="❀ ʜᴏᴍᴇ ❀", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
                     ],
                     [
-        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", url="https://t.me/ranavanshi_divy_X_music_bot"),
                 ],
                     [
-       InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
+       InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
      ],
                     [
                         InlineKeyboardButton(
@@ -426,15 +427,15 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
+        InlineKeyboardButton(text="❀ ʜᴏᴍᴇ ❀", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
                     ],
                     [
-        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", url="https://t.me/ranavanshi_divy_X_music_bot"),
                     ],
                     [
-        InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
+        InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
      ],
                     [
                         InlineKeyboardButton(
@@ -601,15 +602,15 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
             
             reply_markup=InlineKeyboardMarkup(
                 [ [
-        InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
+        InlineKeyboardButton(text="❀ ʜᴏᴍᴇ ❀", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
                  ],
                  [
-        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", url="https://t.me/ranavanshi_divy_X_music_bot"),
                  ],
                  [
-        InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
+        InlineKeyboardButton(text=❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
      ],
                     [
                         InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/about_ranavanshi_divy"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/webnet_support_chats")
@@ -645,15 +646,15 @@ def Source_about_callback(update: Update, context: CallbackContext):
         InlineKeyboardButton(text="sᴏᴜʀᴄᴇ", url="https://github.com/Ranavanshi/PrachiRobot")
                 ],
                  [
-        InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
+        InlineKeyboardButton(text="❀ ʜᴏᴍᴇ ❀", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
                  ],
                  [
-        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", url="https://t.me/ranavanshi_divy_X_music_bot"),
                  ],
                  [
-        InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
+        InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
                  ],
                  
      ],[InlineKeyboardButton(text="◁", callback_data="source_back")]
@@ -681,15 +682,15 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-        InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
-        InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
+        InlineKeyboardButton(text="❀ ʜᴏᴍᴇ ❀", callback_data="mukesh_back"),
+        InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
                     ],
                     [
-        InlineKeyboardButton(text="❁ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", url="https://t.me/ranavanshi_divy_X_music_bot"),
                     ],
                     [
-        InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
-        InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
+        InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
+        InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
      ],
                     [
                         InlineKeyboardButton(
@@ -1111,7 +1112,7 @@ def main():
                 caption=f"""
 ✨ㅤ{BOT_NAME} ɪs ᴀʟɪᴠᴇ ʙᴀʙʏ.
 ━━━━━━━━━━━━━
-**ᴍᴀᴅᴇ ᴡɪᴛʜ ❤️ ʙʏ 𝕯𝖎𝖛𝖞𝖆𝖓𝖘𝖍𝖚**
+**ᴍᴀᴅᴇ ᴡɪᴛʜ 🖤 ʙʏ || [𝕯𝖎𝖛𝖞𝖓𝖆𝖍𝖘𝖚](https://t.me/ranavanshi_divy)||**"                           
 **ᴘʏᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{y()}`
 **ʟɪʙʀᴀʀʏ ᴠᴇʀsɪᴏɴ:** `{telever}`
 **ᴛᴇʟᴇᴛʜᴏɴ ᴠᴇʀsɪᴏɴ:** `{tlhver}`
