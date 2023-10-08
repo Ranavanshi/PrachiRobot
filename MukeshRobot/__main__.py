@@ -90,8 +90,12 @@ buttons = [
     [
         InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
         InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
-        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", callback_data="https://t.me//ranavanshi_divy_X_music_bot"),
-        InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
+    ],
+     [  
+    InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me//ranavanshi_divy_X_music_bot"),
+    ],    
+   
+    [InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
      ],
     [
@@ -320,7 +324,7 @@ def help_button(update, context):
                 parse_mode=ParseMode.MARKDOWN,
                 
                 reply_markup=InlineKeyboardMarkup(
-                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="mukesh_support")]]
+                    [[InlineKeyboardButton(text="ʙᴀᴄᴋ", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/webnet_support_chats")]]
                 ),
             )
 
@@ -384,8 +388,12 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
         InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
-        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", callback_data="https://t.me/ranavanshi_divy_X_music_bot"),
-        InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
+                    ],
+                    [
+        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+                ],
+                    [
+       InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
      ],
                     [
@@ -420,7 +428,11 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
         InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
-        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", callback_data="https://t.me/ranavanshi_divy_X_music_bot"),
+                    ],
+                    [
+        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+                    ],
+                    [
         InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
      ],
@@ -429,7 +441,7 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                             text="🏡 sᴜᴩᴩᴏʀᴛ", url=f"https://t.me/{SUPPORT_CHAT}"
                         ),
                         InlineKeyboardButton(
-                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url=f"webnet_bot_support"
+                            text="ᴜᴩᴅᴀᴛᴇs 🍷", url=f"https://t.me/webnet_bot_support"
                         ),
                     ],
                     [
@@ -497,7 +509,7 @@ def MukeshRobot_Main_Callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="webnet_bot_support")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/webnet_support_chats")
                     ]
                 ]
             ),
@@ -524,7 +536,7 @@ Pɪɴɴᴇᴅ Mᴇssᴀɢᴇs
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="webnet_bot_support")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/webnet_support_chats")
                     ]
                 ]
             ),
@@ -547,7 +559,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="webnet_bot_support")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/webnet_support_chats")
                     ]
                 ]
             ),
@@ -575,7 +587,7 @@ Wᴀʀɴ Mᴀɴᴀɢᴇᴍᴇɴᴛ
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="webnet_bot_support")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Main_help"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/webnet_support_chats")
                     ]
                 ]
             ),
@@ -591,12 +603,16 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
                 [ [
         InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
         InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
-        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", callback_data="https://t.me/ranavanshi_divy_X_music_bot"),
+                 ],
+                 [
+        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+                 ],
+                 [
         InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
      ],
                     [
-                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/about_ranavanshi_divy"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", callback_data="webnet_bot_support")
+                        InlineKeyboardButton(text="• Dᴏɴᴀᴛᴇ •", url="https://t.me/about_ranavanshi_divy"),InlineKeyboardButton(text="• sᴜᴘᴘᴏʀᴛ •", url=f"https://t.me/webnet_support_chats")
                     ]
                 ]
             ),
@@ -631,9 +647,15 @@ def Source_about_callback(update: Update, context: CallbackContext):
                  [
         InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
         InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
-        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", callback_data="https://t.me/ranavanshi_divy_X_music_bot"),
+                 ],
+                 [
+        InlineKeyboardButton(text="❁ ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+                 ],
+                 [
         InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
+                 ],
+                 
      ],[InlineKeyboardButton(text="◁", callback_data="source_back")]]
             ),
         )
@@ -661,7 +683,11 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="❁ ʜᴏᴍᴇ ❁", callback_data="mukesh_back"),
         InlineKeyboardButton(text="❁ ᴍᴏᴅᴜʟᴇs ❁", callback_data="mukesh_"),
-        InlineKeyboardButton(text="❁ᴍᴜsɪᴄ ʙᴏᴛ ❁", callback_data="https://t.me/ranavanshi_divy_X_music_bot"),
+                    ],
+                    [
+        InlineKeyboardButton(text="❁ᴍᴜsɪᴄ ʙᴏᴛ ❁", url="https://t.me/ranavanshi_divy_X_music_bot"),
+                    ],
+                    [
         InlineKeyboardButton(text="❁ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❁", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❁ ʜᴇʟᴘ ❁", callback_data="Main_help"),
      ],
@@ -708,7 +734,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="webnet_bot_support")
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/webnet_support_chats")
                     ]
                 ]
             ),
@@ -734,7 +760,7 @@ def Music_about_callback(update: Update, context: CallbackContext):
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="webnet_bot_support")
+                        InlineKeyboardButton(text="• ʙᴀᴄᴋ •", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/webnet_support_chats")
                     ]
                 ]
             ),
@@ -761,7 +787,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="webnet_bot_support")
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/webnet_support_chats")
                     ]
                 ]
             ),
@@ -781,7 +807,7 @@ c ꜱᴛᴀɴᴅꜱ ꜰᴏʀ ᴄʜᴀɴɴᴇʟ ᴘʟᴀʏ.
             reply_markup=InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="webnet_bot_support")
+                        InlineKeyboardButton(text=" ʙᴀᴄᴋ ", callback_data="Music_"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/webnet_support_chats")
                     ]
                 ]
             ),
@@ -852,7 +878,7 @@ def get_help(update: Update, context: CallbackContext):
             chat.id,
             text,
             InlineKeyboardMarkup(
-                [[InlineKeyboardButton(text="◁", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", callback_data="webnet_bot_support")]]
+                [[InlineKeyboardButton(text="◁", callback_data="help_back"),InlineKeyboardButton(text="sᴜᴘᴘᴏʀᴛ", url=f"https://t.me/webnet_support_chats")]]
             ),
         )
 
