@@ -97,7 +97,7 @@ buttons = [
     [
         InlineKeyboardButton(
             text="Aᴅᴅ Mᴇ ᴛᴏ Yᴏᴜʀ Gʀᴏᴜᴘ",
-            url=f"https://t.me/{dispatcher.bot.username}?startgroup=true",
+            url=f"https://t.me/savvy_robot?startgroup=true",
         ),
     ],
     [
@@ -1080,7 +1080,7 @@ def main():
                     [
                         InlineKeyboardButton(
                             text="➕ᴀᴅᴅ ᴍᴇ ᴛᴏ ʏᴏᴜʀ ᴄʜᴀᴛ➕",
-                            url="https://t.me/{dispatcher.bot.username}?startgroup=true"
+                            url="https://t.me/Savvy_robot?startgroup=true"
                             )
                        ]
                 ]
