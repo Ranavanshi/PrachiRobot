@@ -90,9 +90,6 @@ buttons = [
         InlineKeyboardButton(text="❀ ʜᴏᴍᴇ ❀", callback_data="mukesh_back"),
         InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
     ],
-     [  
-    InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", callback_data="music_"),
-    ],    
    
     [InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
@@ -390,9 +387,6 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
         InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
                     ],
                     [
-        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", callback_data="music_"),
-                ],
-                    [
        InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
      ],
@@ -428,9 +422,6 @@ def Mukesh_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="❀ ʜᴏᴍᴇ ❀", callback_data="mukesh_back"),
         InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
-                    ],
-                    [
-        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", callback_data="music_"),
                     ],
                     [
         InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
@@ -605,9 +596,6 @@ Yᴏᴜ ᴄᴀɴ ʜᴇʟᴘ ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴘᴍᴇɴᴛ ᴡɪᴛʜ 
         InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
                  ],
                  [
-        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", callback_data="music_"),
-                 ],
-                 [
         InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
      ],
@@ -649,9 +637,6 @@ def Source_about_callback(update: Update, context: CallbackContext):
         InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
                  ],
                  [
-        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", callback_data="music_"),
-                 ],
-                 [
         InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
         InlineKeyboardButton(text="❀ ʜᴇʟᴘ ❀", callback_data="Main_help"),
                  ],
@@ -683,9 +668,6 @@ def Music_about_callback(update: Update, context: CallbackContext):
                     [
         InlineKeyboardButton(text="❀ ʜᴏᴍᴇ ❀", callback_data="mukesh_back"),
         InlineKeyboardButton(text="❀ ᴍᴏᴅᴜʟᴇs ❀", callback_data="mukesh_"),
-                    ],
-                    [
-        InlineKeyboardButton(text="❀ ᴍᴜsɪᴄ ʙᴏᴛ ❀", callback_data="music_"),
                     ],
                     [
         InlineKeyboardButton(text="❀ ᴅᴇᴠᴇʟᴏᴘᴇʀ ❀", url=f"tg://user?id={OWNER_ID}"),
